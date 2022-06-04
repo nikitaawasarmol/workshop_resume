@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- container -->
+    <div class="container">
+        <header>
+            <img src="https://us.123rf.com/450wm/pandavector/pandavector1901/pandavector190105594/126045801-isolated-object-of-avatar-and-dummy-icon-collection-of-avatar-and-image-vector-icon-for-stock-.jpg?ver=6" alt="dummy image">
+        </header>
+          
+        
+        <!-- intro -->
+        <div class="intro">
+            <h1>Nikita Awasarmol</h1>
+            <p>Thank you for giving me this opportunity to introduce myself my name is Nikita Awasarmol. I am from Aurangabad. I am currently pursuing my undergraduation in Computer Science and Technology in Btech. Now i would like to talk about my areas of interests, I am interested in Web Development and it's various technologies. Today by attending this workshop I took first step towards my web development journey!</p>
+
+        </div>
+        
+        
+        <!-- education -->
+        <div class="education">
+            <h2>Education:</h2>
+            <table>
+                <tr>
+                    <th>Class</th>
+                    <th>Percentage</th>
+                    <th>Board/University</th>
+                    <th>Passing year</th>
+                </tr>
+                <tr>
+                    <td>Xth</td>
+                    <td>90%</td>
+                    <td>State Board</td>
+                    <td>2017</td>
+
+                    
+                <tr>
+                    <td>XIIth</td>
+                    <td>90%</td>
+                    <td>State Board</td>
+                    <td>2019</td>
+                </tr>
+                <tr>
+                    <td>UG</td>
+                    <td>90%</td>
+                    <td>BATU</td>
+                    <td>2023</td>
+                </tr>
+                    
+                </tr>
+            </table>
+        </div>
+
+        <!-- skills -->
+        <div class="skills">
+            <h2>Skills:</h2>
+            <ul>
+                <li>Cooking</li>
+                <li>Dancing</li>
+                <li>Eating</li>
+                <li>Drinking</li>
+            </ul>
+          
+        </div>
+
+        <!-- hobbies -->
+        <div class="hobbies">
+            <h2>Hobbies:</h2>
+            <ul>
+                <li>Cooking</li>
+                <li>Dancing</li>
+                <li>Eating</li>
+                <li>Drinking</li>
+            </ul>
+            
+        </div>
+
+        <!-- contact -->
+        <div class="contact">
+            <h2>Contact information:</h2>
+            <ul>
+                <li>Mail: <a href="mailto:nikita.awasarmol@mit.asia">nikita.awasarmol@mit.asia</a></li>
+                <li>Phone number: 9403928133</li> 
+                <li>Address: Beed by pass, mit.</li>
+            </ul>
+             
+        </div>
+
+        <!-- declaration -->
+        <div class="declaration">
+            <h2>Declaration</h2>
+            <p>I Solemny declare that all the above information is correct to the best  of my knowledge and belief.</p>
+        </div>
+
+        <!-- date -->
+        <div class="getdate">
+            <p><b> Date:</b></p>
+            <div id="date"></div>
+        </div>
+
+        <!-- time -->
+        <div class="gettime">
+            <p><b> Time:</b></p>
+            <div id="time"></div>
+        </div>
+
+        <!-- links -->
+        <div class="links">
+            <h2>Social Links</h2>
+            <a href="instagram.com"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png" alt="instagram logo" width="50" height="50"></a>    
+            <a href="github.com"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="" width="50" height="50"></a> 
+            <a href="linkedin.com"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/800px-LinkedIn_logo_initials.png" alt="" width="50" height="50"></a> 
+        </div>
+         
+    </div>
+</body>
+<script>
+
+    var today = new Date();
+    var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+    document.getElementById("date").innerHTML = date;
+    var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+    document.getElementById("time").innerHTML = time;
+
+</script>
+</html>
